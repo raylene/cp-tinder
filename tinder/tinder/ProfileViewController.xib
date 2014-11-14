@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController">
+            <connections>
+                <outlet property="imageView" destination="KFj-WW-kU4" id="ucR-Zs-Fwq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KFj-WW-kU4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="KFj-WW-kU4" secondAttribute="trailing" constant="118" id="93B-p2-X4m"/>
+                <constraint firstAttribute="bottom" secondItem="KFj-WW-kU4" secondAttribute="bottom" id="BzA-gt-AyZ"/>
+                <constraint firstAttribute="trailing" secondItem="KFj-WW-kU4" secondAttribute="trailing" id="CXM-fm-LzO"/>
+                <constraint firstAttribute="bottom" secondItem="KFj-WW-kU4" secondAttribute="bottom" constant="178" id="Gfm-8n-gzn"/>
+                <constraint firstItem="KFj-WW-kU4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="L22-OZ-mwS"/>
+                <constraint firstItem="KFj-WW-kU4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LeT-6B-dK7"/>
+                <constraint firstItem="KFj-WW-kU4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-118" id="bRh-jX-Vgk"/>
+                <constraint firstItem="KFj-WW-kU4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-178" id="pPl-B4-OA1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="93B-p2-X4m"/>
+                    <exclude reference="Gfm-8n-gzn"/>
+                    <exclude reference="bRh-jX-Vgk"/>
+                    <exclude reference="pPl-B4-OA1"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="117" y="206"/>
+        </view>
+    </objects>
+</document>
